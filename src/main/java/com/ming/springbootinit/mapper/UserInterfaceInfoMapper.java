@@ -1,7 +1,8 @@
 package com.ming.springbootinit.mapper;
 
-import com.ming.springbootinit.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
+
 
 /**
 * @author 嘿嘿嘿

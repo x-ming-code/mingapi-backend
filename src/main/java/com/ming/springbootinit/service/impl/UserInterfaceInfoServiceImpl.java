@@ -2,12 +2,14 @@ package com.ming.springbootinit.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+
+import com.ming.mingapicommon.service.UserInterfaceInfoService;
+
+import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
+
 import com.ming.springbootinit.common.ErrorCode;
 import com.ming.springbootinit.exception.BusinessException;
-import com.ming.springbootinit.model.entity.UserInterfaceInfo;
-import com.ming.springbootinit.service.UserInterfaceInfoService;
 import com.ming.springbootinit.mapper.UserInterfaceInfoMapper;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,7 +19,7 @@ import org.springframework.stereotype.Service;
 */
 @Service
 public class UserInterfaceInfoServiceImpl extends ServiceImpl<UserInterfaceInfoMapper, UserInterfaceInfo>
-    implements UserInterfaceInfoService{
+    implements UserInterfaceInfoService {
 
     @Override
     public void validUserInterfaceInfo(UserInterfaceInfo userInterfaceInfo, boolean add) {
