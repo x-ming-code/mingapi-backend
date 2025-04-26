@@ -16,7 +16,7 @@ import com.ming.springbootinit.model.dto.user.UserQueryRequest;
 import com.ming.springbootinit.model.dto.user.UserRegisterRequest;
 import com.ming.springbootinit.model.dto.user.UserUpdateMyRequest;
 import com.ming.springbootinit.model.dto.user.UserUpdateRequest;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.model.vo.LoginUserVO;
 import com.ming.springbootinit.model.vo.UserVO;
 import com.ming.springbootinit.service.UserService;

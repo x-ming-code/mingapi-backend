@@ -1,7 +1,6 @@
 package com.ming.mingapicommon.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
-import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
+
 
 
 /**
@@ -10,7 +9,7 @@ import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
 * @createDate 2025-04-20 15:18:59
 */
 
-public interface InnerUserInterfaceInfoService extends IService<UserInterfaceInfo> {
+public interface InnerUserInterfaceInfoService  {
 
     /**
      * 统计调用次数

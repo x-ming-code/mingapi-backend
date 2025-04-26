@@ -5,7 +5,7 @@ import com.ming.springbootinit.common.ErrorCode;
 import com.ming.springbootinit.common.ResultUtils;
 import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.model.dto.postthumb.PostThumbAddRequest;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.service.PostThumbService;
 import com.ming.springbootinit.service.UserService;
 import javax.annotation.Resource;

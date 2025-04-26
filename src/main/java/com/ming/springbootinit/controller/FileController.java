@@ -8,7 +8,7 @@ import com.ming.springbootinit.constant.FileConstant;
 import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.manager.CosManager;
 import com.ming.springbootinit.model.dto.file.UploadFileRequest;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.model.enums.FileUploadBizEnum;
 import com.ming.springbootinit.service.UserService;
 import java.io.File;

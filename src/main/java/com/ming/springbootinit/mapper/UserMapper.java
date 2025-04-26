@@ -1,7 +1,8 @@
 package com.ming.springbootinit.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ming.springbootinit.model.entity.User;
+//import com.ming.mingapicommon.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 
 /**
  * 用户数据库操作

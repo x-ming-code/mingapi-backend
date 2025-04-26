@@ -3,13 +3,14 @@ package com.ming.springbootinit.service.impl;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
-import com.ming.mingapicommon.service.UserInterfaceInfoService;
+
 
 import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
 
 import com.ming.springbootinit.common.ErrorCode;
 import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.mapper.UserInterfaceInfoMapper;
+import com.ming.springbootinit.service.UserInterfaceInfoService;
 import org.springframework.stereotype.Service;
 
 /**

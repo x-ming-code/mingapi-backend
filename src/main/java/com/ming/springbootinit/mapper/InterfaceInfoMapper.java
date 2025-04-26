@@ -2,7 +2,7 @@ package com.ming.springbootinit.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ming.springbootinit.model.entity.InterfaceInfo;
+import com.ming.mingapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author 嘿嘿嘿

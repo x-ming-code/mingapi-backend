@@ -1,6 +1,6 @@
 package com.ming.springbootinit.service;
 
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;

@@ -3,7 +3,7 @@ package com.ming.springbootinit.aop;
 import com.ming.springbootinit.annotation.AuthCheck;
 import com.ming.springbootinit.common.ErrorCode;
 import com.ming.springbootinit.exception.BusinessException;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.model.enums.UserRoleEnum;
 import com.ming.springbootinit.service.UserService;
 import org.aspectj.lang.ProceedingJoinPoint;

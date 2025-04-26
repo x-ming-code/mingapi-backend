@@ -7,12 +7,13 @@ import cn.hutool.core.util.RandomUtil;
 import cn.hutool.crypto.digest.DigestUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.common.ErrorCode;
 import com.ming.springbootinit.constant.CommonConstant;
 import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.mapper.UserMapper;
 import com.ming.springbootinit.model.dto.user.UserQueryRequest;
-import com.ming.springbootinit.model.entity.User;
+
 import com.ming.springbootinit.model.enums.UserRoleEnum;
 import com.ming.springbootinit.model.vo.LoginUserVO;
 import com.ming.springbootinit.model.vo.UserVO;

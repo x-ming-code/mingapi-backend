@@ -2,8 +2,9 @@ package com.ming.springbootinit.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.model.dto.user.UserQueryRequest;
-import com.ming.springbootinit.model.entity.User;
+
 import com.ming.springbootinit.model.vo.LoginUserVO;
 import com.ming.springbootinit.model.vo.UserVO;
 import java.util.List;

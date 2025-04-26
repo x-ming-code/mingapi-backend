@@ -1,7 +1,7 @@
 package com.ming.springbootinit.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ming.springbootinit.model.entity.InterfaceInfo;
+import com.ming.mingapicommon.model.entity.InterfaceInfo;
 
 
 /**

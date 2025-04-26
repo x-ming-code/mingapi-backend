@@ -3,6 +3,8 @@ package com.ming.springbootinit.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
 
+import java.util.List;
+
 
 /**
 * @author 嘿嘿嘿
@@ -11,7 +13,7 @@ import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
 * @Entity com.ming.springbootinit.model.entity.UserInterfaceInfo
 */
 public interface UserInterfaceInfoMapper extends BaseMapper<UserInterfaceInfo> {
-
+    List<UserInterfaceInfo> listTopInvokeInterfaceInfo(int limit);
 }
 
 

@@ -10,7 +10,7 @@ import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.mapper.PostFavourMapper;
 import com.ming.springbootinit.model.entity.Post;
 import com.ming.springbootinit.model.entity.PostFavour;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.service.PostFavourService;
 import com.ming.springbootinit.service.PostService;
 import javax.annotation.Resource;

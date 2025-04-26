@@ -5,15 +5,15 @@
 <mapper namespace="com.ming.springbootinit.mapper.UserInterfaceInfoMapper">
 
     <resultMap id="BaseResultMap" type="com.ming.mingapicommon.model.entity.UserInterfaceInfo">
-            <id property="id" column="id" jdbcType="BIGINT"/>
-            <result property="userId" column="userId" jdbcType="BIGINT"/>
-            <result property="interfaceInfoId" column="interfaceInfoId" jdbcType="BIGINT"/>
-            <result property="totalNum" column="totalNum" jdbcType="INTEGER"/>
-            <result property="leftNum" column="leftNum" jdbcType="INTEGER"/>
-            <result property="status" column="status" jdbcType="INTEGER"/>
-            <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
-            <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
-            <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="userId" column="userId" jdbcType="BIGINT"/>
+        <result property="interfaceInfoId" column="interfaceInfoId" jdbcType="BIGINT"/>
+        <result property="totalNum" column="totalNum" jdbcType="INTEGER"/>
+        <result property="leftNum" column="leftNum" jdbcType="INTEGER"/>
+        <result property="status" column="status" jdbcType="INTEGER"/>
+        <result property="createTime" column="createTime" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="updateTime" jdbcType="TIMESTAMP"/>
+        <result property="isDelete" column="isDelete" jdbcType="TINYINT"/>
     </resultMap>
 
     <sql id="Base_Column_List">
@@ -21,4 +21,11 @@
         totalNum,leftNum,status,
         createTime,updateTime,isDelete
     </sql>
+    <select id="listTopInvokeInterfaceInfo" resultType="com.ming.mingapicommon.model.entity.UserInterfaceInfo">
+        select user_interface_info.interfaceInfoId as userinterfaceinfoid, sum(user_interface_info.totalNum) as totalNum
+        from user_interface_info
+        group by user_interface_info.id
+        order by totalNum desc
+        limit #{limit};
+    </select>
 </mapper>

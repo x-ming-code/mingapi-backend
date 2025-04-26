@@ -15,7 +15,7 @@ import com.ming.springbootinit.model.dto.post.PostQueryRequest;
 import com.ming.springbootinit.model.entity.Post;
 import com.ming.springbootinit.model.entity.PostFavour;
 import com.ming.springbootinit.model.entity.PostThumb;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.model.vo.PostVO;
 import com.ming.springbootinit.model.vo.UserVO;
 import com.ming.springbootinit.service.PostService;

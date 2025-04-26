@@ -101,6 +101,7 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.ming.springbootinit.controller
+# 这段配置仅供测试使用， 实际已经是根据登录用户来获取ak sk
 ming:
   api:
     access-key: ming

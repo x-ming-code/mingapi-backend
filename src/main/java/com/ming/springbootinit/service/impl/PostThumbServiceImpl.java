@@ -7,7 +7,7 @@ import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.mapper.PostThumbMapper;
 import com.ming.springbootinit.model.entity.Post;
 import com.ming.springbootinit.model.entity.PostThumb;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
 import com.ming.springbootinit.service.PostService;
 import com.ming.springbootinit.service.PostThumbService;
 import javax.annotation.Resource;

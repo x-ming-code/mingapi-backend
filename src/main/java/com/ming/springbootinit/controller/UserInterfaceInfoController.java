@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.ming.mingapicommon.model.entity.UserInterfaceInfo;
 
-import com.ming.mingapicommon.service.UserInterfaceInfoService;
 import com.ming.springbootinit.annotation.AuthCheck;
 import com.ming.springbootinit.common.BaseResponse;
 import com.ming.springbootinit.common.DeleteRequest;
@@ -17,7 +16,8 @@ import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.model.dto.userinterfaceInfo.UserInterfaceInfoAddRequest;
 import com.ming.springbootinit.model.dto.userinterfaceInfo.UserInterfaceInfoQueryRequest;
 import com.ming.springbootinit.model.dto.userinterfaceInfo.UserInterfaceInfoUpdateRequest;
-import com.ming.springbootinit.model.entity.User;
+import com.ming.mingapicommon.model.entity.User;
+import com.ming.springbootinit.service.UserInterfaceInfoService;
 import com.ming.springbootinit.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;

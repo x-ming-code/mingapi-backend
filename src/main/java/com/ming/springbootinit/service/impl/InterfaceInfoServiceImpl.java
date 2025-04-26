@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ming.springbootinit.common.ErrorCode;
 import com.ming.springbootinit.exception.BusinessException;
 import com.ming.springbootinit.mapper.InterfaceInfoMapper;
-import com.ming.springbootinit.model.entity.InterfaceInfo;
+import com.ming.mingapicommon.model.entity.InterfaceInfo;
 import com.ming.springbootinit.service.InterfaceInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
