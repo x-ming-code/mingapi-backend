@@ -22,9 +22,9 @@
         createTime,updateTime,isDelete
     </sql>
     <select id="listTopInvokeInterfaceInfo" resultType="com.ming.mingapicommon.model.entity.UserInterfaceInfo">
-        select user_interface_info.interfaceInfoId as userinterfaceinfoid, sum(user_interface_info.totalNum) as totalNum
+        select interfaceInfoId, sum(totalNum) as totalNum
         from user_interface_info
-        group by user_interface_info.id
+        group by interfaceInfoId
         order by totalNum desc
         limit #{limit};
     </select>
